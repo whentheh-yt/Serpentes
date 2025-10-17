@@ -1,0 +1,46 @@
+{
+  "game": {
+    "num_windows": 4,
+    "rows": 7,
+    "cols": 7,
+    "cell": 36,
+    "tick_ms": 120,
+    "anim_ms": 60,
+    "swap_interval_ms": 7501,
+    "swap_duration_ms": 7500,
+    "drift_radius": 1920
+  },
+  "colors": {
+    "head_color": "#0b8847",
+    "body_color": "#3cd593",
+    "food_color": "#cc2224",
+    "bg_color": "#222428",
+    "enemy_head_color": "#aa0000",
+    "enemy_body_color": "#ff5555",
+    "enemy_aura_color": "#ff9999",
+    "special_food_color": "#ffd700",
+    "score_bg_color": "#111111",
+    "score_fg_color": "#ffffff",
+    "reset_powerup_color": "#4a90e2"
+  },
+  "enemy": {
+    "spawn_length": 16,
+    "initial_length": 3,
+    "speed_factor": 1,
+    "aura_pad": 4,
+    "can_eat_food": true
+  },
+  "special_food": {
+    "chance": 0.0225,
+    "length": 2,
+    "add_window": true
+  },
+  "score_window": {
+    "height": 100,
+    "font": ["Segoe UI", 24, "bold"],
+    "update_ms": 100
+  },
+  "reset_powerup": {
+    "chance": 0.025
+  }
+}
