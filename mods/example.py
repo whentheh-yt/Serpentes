@@ -1,0 +1,25 @@
+"""
+[NOTE]
+For this mod (and any other mod) to work,
+it needs to be in the same directory as
+serpentes.py.
+
+If you want to submit your own custom mods, 
+please contact the owner of this respository
+at whentheh.yt@gmail.com.
+"""
+import tkinter as tk
+from serpentes import Serpentes
+
+def main():
+    root = tk.Tk()
+    game = Serpentes(root)
+
+    # Example: initiates windows 3 times
+    for _ in range(3):
+        game.init_windows()
+
+    root.mainloop()
+
+if __name__ == "__main__":
+    main()
